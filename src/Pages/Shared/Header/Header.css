@@ -6,3 +6,6 @@
 .headerBtn-color:hover{
     border: 1px solid rgb(12, 149, 229);
 }
+.header-bg{
+    background-color: rgb(247, 250, 253);
+}
