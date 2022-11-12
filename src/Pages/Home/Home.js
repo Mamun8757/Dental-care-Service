@@ -17,7 +17,7 @@ const Home = () => {
                 <Service></Service>
             </div>
             <div >
-                <Link to='/services' className='btn'>See All</Link>
+                <Link to='/service' className='btn'>See All</Link>
             </div>
         </div>
     );

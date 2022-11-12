@@ -5,11 +5,13 @@ import './Header.css';
 const Header = () => {
     const navItems = <>
     <li><Link to='/'>Home</Link></li>
-    <li><Link to='/'>About Us</Link></li>
-    <li><Link to='/'>Services</Link></li>
-    <li><Link to='/'>My Review</Link></li>
-    <li><Link to='/'>Blogs</Link></li>
-    <li><Link to='/'>Contact</Link></li>
+    <li><Link to='/service'>Services</Link></li>
+    <li><Link to='/blogs'>Blogs</Link></li>
+    <li><Link to='/my-review'>My Review</Link></li>
+    <li><Link to='/contact-us'>Contact</Link></li>
+    <li><Link to='/log-in'>Login</Link></li>
+    <li><Link to='/sign-up'>Sign Up</Link></li>
+    
     </>
     return (
         <div className="navbar header-bg px-10">
@@ -32,7 +34,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <Link to='/contact' className="btn text-lg headerBtn-color">Book Appointment</Link>
+                <Link to='/contact-us' className="btn text-lg headerBtn-color">Book Appointment</Link>
             </div>
         </div>
     );
