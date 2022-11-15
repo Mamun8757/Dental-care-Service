@@ -22,6 +22,7 @@ const Home = () => {
             <div>
                 <Service></Service>
             </div>
+            
             <div >
                 <Link to='/services' className='btn btn-primary'>See All</Link>
             </div>
