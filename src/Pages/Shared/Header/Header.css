@@ -2,6 +2,10 @@
     background-image: linear-gradient(to right, rgb(12, 149, 229), rgba(50, 100, 218));
     border: 1px solid rgb(12, 149, 229);
 }
+.headerBtn-color:hover{
+    background-image: linear-gradient(to left, rgb(12, 149, 229), rgba(50, 100, 218));
+    border: 1px solid rgb(12, 149, 229);
+}
 
 .headerBtn-color:hover{
     border: 1px solid rgb(12, 149, 229);
