@@ -22,12 +22,15 @@ const Banner = () => {
                         <p className='text-xl mt-10'>
                             We offer best Dental service by the professional and well <br></br> trained Dentist! We assure the best service.
                         </p>
-                        <Link to='/about-us' className='btn'>Learn More</Link>
+                        <br />
+                        <Link to='/services' className='btn h-10 bg-gradient-to-r from-cyan-500 to-blue-500 border-white hover:border-white'>Get Started</Link>
                     </h1>
                 </div>
             </div>
             <div id="slide2" className="carousel-item relative w-full">
-                <img src={Banner2} alt="Banner2" />
+                <div className='carousel-overlay'>
+                    <img src={Banner2} alt="Banner1" />
+                </div>
                 <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0">
                     <a href="#slide1" className="btn btn-circle mr-5">❮</a>
                     <a href="#slide3" className="btn btn-circle">❯</a>
@@ -38,12 +41,15 @@ const Banner = () => {
                         <p className='text-xl mt-10'>
                             We offer best Dental service by the professional and well <br></br> trained Dentist! We assure the best service.
                         </p>
-                        <Link to='/about-us' className='btn'>Learn More</Link>
+                        <br />
+                        <Link to='/services' className='btn h-10 bg-gradient-to-r from-cyan-500 to-blue-500 border-white hover:border-white'>Get Started</Link>
                     </h1>
                 </div>
             </div>
             <div id="slide3" className="carousel-item relative w-full">
-                <img src={Banner3} alt="Banner3" />
+                <div className='carousel-overlay'>
+                    <img src={Banner3} alt="Banner1" />
+                </div>
                 <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0">
                     <a href="#slide2" className="btn btn-circle mr-5">❮</a>
                     <a href="#slide4" className="btn btn-circle">❯</a>
@@ -54,12 +60,15 @@ const Banner = () => {
                         <p className='text-xl mt-10'>
                             We offer best Dental service by the professional and well <br></br> trained Dentist! We assure the best service.
                         </p>
-                        <Link to='/about-us' className='btn'>Learn More</Link>
+                        <br />
+                        <Link to='/services' className='btn h-10 bg-gradient-to-r from-cyan-500 to-blue-500 border-white hover:border-white'>Get Started</Link>
                     </h1>
                 </div>
             </div>
             <div id="slide4" className="carousel-item relative w-full">
-                <img src={Banner4} alt="Banner4" />
+                <div className='carousel-overlay'>
+                    <img src={Banner4} alt="Banner1" />
+                </div>
                 <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0">
                     <a href="#slide3" className="btn btn-circle mr-5">❮</a>
                     <a href="#slide1" className="btn btn-circle">❯</a>
@@ -70,7 +79,8 @@ const Banner = () => {
                         <p className='text-xl mt-10'>
                             We offer best Dental service by the professional and well <br></br> trained Dentist! We assure the best service.
                         </p>
-                        <Link to='/about-us' className='btn'>Learn More</Link>
+                        <br />
+                        <Link to='/services' className='btn h-10 bg-gradient-to-r from-cyan-500 to-blue-500 border-white hover:border-white'>Get Started</Link>
                     </h1>
                 </div>
             </div>

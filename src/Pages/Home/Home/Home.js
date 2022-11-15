@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Service from '../Service/Service';
-import Banner from './Banner/Banner';
+import Service from '../../Service/Service';
+import Banner from '../Banner/Banner';
 
 const Home = () => {
     return (
@@ -17,7 +17,7 @@ const Home = () => {
                 <Service></Service>
             </div>
             <div >
-                <Link to='/service' className='btn'>See All</Link>
+                <Link to='/services' className='btn btn-primary'>See All</Link>
             </div>
         </div>
     );
