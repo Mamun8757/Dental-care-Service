@@ -11,6 +11,7 @@ import BlogDetails1 from "../../Pages/Blogs/BlogsDetails/BlogDetails1";
 import BlogDetails2 from "../../Pages/Blogs/BlogsDetails/BlogDetails2";
 import BlogDetails3 from "../../Pages/Blogs/BlogsDetails/BlogDetails3";
 import BlogDetails4 from "../../Pages/Blogs/BlogsDetails/BlogDetails4";
+import Appointment from "../../Pages/Appointment/Appointment/Appointment";
 const router = createBrowserRouter([
     {
         path: '/',
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
             {
                 path: '/my-review',
                 element: <Review></Review>
+            },
+            {
+                path: '/appointment',
+                element: <Appointment></Appointment>
             },
             {
                 path: '/contact-us',
@@ -60,7 +65,6 @@ const router = createBrowserRouter([
                 path: 'blogs/nodejs-multiple-request-details',
                 element: <BlogDetails4></BlogDetails4>
             },
-            
         ]
         
     }

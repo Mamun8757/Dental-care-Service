@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../../Resources/Assets/logo.png';
 import './Header.css';
@@ -9,8 +8,8 @@ const Header = () => {
     <li><Link to='/blogs'>Blogs</Link></li>
     <li><Link to='/my-review'>My Review</Link></li>
     <li><Link to='/contact-us'>Contact</Link></li>
-    <li><Link to='/log-in' className='btn headerBtn-color text-white p-4'>LogIn</Link></li>
-    
+    <li><Link to='/log-in'>LogIn</Link></li>
+
     </>
     return (
         <div className="navbar header-bg px-10 ">
@@ -24,7 +23,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <Link to="/">
-                    <img src={logo} alt="Header Logo" />
+                    <img src={logo} className="h-12" alt="Header Logo" />
                 </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
@@ -33,7 +32,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <Link to='/contact-us' className="btn text-lg headerBtn-color">Book Appointment</Link>
+                <Link to='/appointment' className="btn text-lg headerBtn-color">Appointment</Link>
             </div>
         </div>
     );
