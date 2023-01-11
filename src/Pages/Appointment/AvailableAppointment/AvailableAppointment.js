@@ -9,7 +9,7 @@ const AvailableAppointment = ({selectedDate}) => {
 
 
     useEffect(() =>{
-        fetch("http://localhost:5000/availableOptions")
+        fetch("https://dental-care-service-server.vercel.app/availableOptions")
           .then((res) => res.json())
           .then((data) => setappointmentOptions(data));
     }, [])
