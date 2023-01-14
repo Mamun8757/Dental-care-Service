@@ -1,7 +1,6 @@
 import chair from '../../../Resources/Assets/images/chair.png';
 import { DayPicker } from "react-day-picker";
 const AppointmentBanner = ({selectedDate, setSelectedDate}) => {
-    
     return (
       <div className="hero">
         <div className="hero-content flex-col lg:flex-row-reverse">
@@ -14,6 +13,7 @@ const AppointmentBanner = ({selectedDate, setSelectedDate}) => {
             mode="single"
             selected={selectedDate}
             onSelect={setSelectedDate}
+            
           ></DayPicker>
         </div>
       </div>
